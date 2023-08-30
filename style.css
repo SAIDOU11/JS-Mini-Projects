@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #000000;
+  margin: 0;
+  color: white;
+  font-size: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1.25em;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  background: #000000;
+  width: 100%;
+  max-width: 300px;
+  padding: 0 0.7em;
+  box-sizing: border-box;
+  transition: box-shadow 0.3s ease;
+  margin: 0 1.25em 0.25em 1.25em;
+  border-radius: 0.3em;
+}
+
+.card-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card img {
+  width: 48px;
+  border-radius: 0.3em;
+}
+
+.card-mid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin-left: 1em;
+}
+
+.card:hover {
+  font-size: 1.1rem;
+  margin: 0 0 0.15em 0;
+}
+
+h4.card:hover {
+  box-shadow: 0 0px 15px rgba(255, 255, 255, 0.8);
+}
+
+h4.card-title {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.card-artist {
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.card-menu {
+  font-size: 1.24rem;
+  color: #888888;
+  transform: rotate(90deg);
+  width: 21px;
+  cursor: pointer;
+}
+
+.card-menu:hover {
+  color: #ffffff;
+}
