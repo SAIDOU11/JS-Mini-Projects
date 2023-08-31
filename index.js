@@ -2,7 +2,6 @@ import playlistArr from './playlist.js';
 
 const playlistHtml = playlistArr
   .map((playlist) => {
-    console.log(playlist);
     return `<section class="card">
       <div class="card-start">
           <img src="/images/${playlist.albumArt}">
